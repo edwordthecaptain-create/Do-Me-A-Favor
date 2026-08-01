@@ -11,7 +11,7 @@ public:
 
     void AddEvidence(Evidence* evidence);
     void RemoveEvidence(Evidence* evidence);
-    void FindEvidence(Evidence* evidence);
+    Evidence* FindEvidence(int ItemId);
     
     const std::vector<Evidence*>& GetEvidence() const;
 };

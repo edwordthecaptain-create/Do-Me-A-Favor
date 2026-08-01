@@ -2,10 +2,10 @@
 
 class Sitemap{
 private:
-    int currentSite;
+    int currentSite = 0;
 public:
-    Sitemap();
-    ~Sitemap();
+    Sitemap() = default;
+    ~Sitemap() = default;
 
     void ChangeSite(int cameraId);
     void InteractObject();

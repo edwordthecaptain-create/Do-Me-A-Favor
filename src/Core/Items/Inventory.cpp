@@ -42,15 +42,15 @@ void Inventory::RemoveConsume(Consumable* consumable){
     }
 }
 
-bool Inventory::HasItem(std::string ItemName){
+bool Inventory::HasItem(int ItemId){
     for(int i = 0; i < evidence_item.size(); i++){
-        if(evidence_item[i]->GetName() == ItemName){
+        if(evidence_item[i]->GetID() == ItemId){
             return true;
         }
     }
 
     for(int i = 0; i < consume_item.size(); i++){
-        if(consume_item[i]->GetName() == ItemName){
+        if(consume_item[i]->GetID() == ItemId){
             return true;
         }
     }
@@ -58,9 +58,9 @@ bool Inventory::HasItem(std::string ItemName){
     return false;
 }
 
-Evidence* Inventory::FindEvidence(std::string EvidenceName){
+Evidence* Inventory::FindEvidence(int ItemId){
     for(int i = 0; i < evidence_item.size(); i++){
-        if(evidence_item[i]->GetName() == EvidenceName){
+        if(evidence_item[i]->GetID() == ItemId){
             return evidence_item[i];
         }
     }
@@ -68,9 +68,9 @@ Evidence* Inventory::FindEvidence(std::string EvidenceName){
     return nullptr;
 }
 
-Consumable* Inventory::FindConsumable(std::string ConsumeName){
+Consumable* Inventory::FindConsumable(int ItemId){
     for(int i = 0; i < consume_item.size();i++){
-        if(consume_item[i]->GetName() == ConsumeName){
+        if(consume_item[i]->GetID() == ItemId){
             return consume_item[i];
         }
     }

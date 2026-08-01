@@ -11,7 +11,7 @@ class Shelter{
 private:
     Generator generator;
     Protection barricade;
-    //Population population;
+    Population population;
     Inventory inventory;
     Sitemap sitemap;
     Notebook notebook;
@@ -21,7 +21,7 @@ public:
 
     const Generator& GetGenerator() const;
     const Protection& GetBarricade() const;
-    //const Population& GetPopulation() const;
+    const Population& GetPopulation() const;
     const Inventory& GetInventory() const;
     const Sitemap& GetSitemap() const;
     const Notebook& GetNotebook() const;

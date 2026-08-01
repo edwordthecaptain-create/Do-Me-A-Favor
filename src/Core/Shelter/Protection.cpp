@@ -5,6 +5,8 @@ Protection::Protection(int init_strength){
     durability = init_strength;
 }
 
+Protection::~Protection() {}
+
 void Protection::IncreaseDurability(int unit){
     durability += unit;
 

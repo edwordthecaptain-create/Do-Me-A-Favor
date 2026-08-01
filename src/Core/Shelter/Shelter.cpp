@@ -8,7 +8,9 @@ const Protection& Shelter::GetBarricade() const {
     return barricade;
 }
 
-//const Population& Shelter::GetPopulation() const {}
+const Population& Shelter::GetPopulation() const {
+    return population;
+}
 
 const Inventory& Shelter::GetInventory() const {
     return inventory;

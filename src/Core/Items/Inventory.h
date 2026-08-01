@@ -13,9 +13,9 @@ public:
     void AddConsume(Consumable* consumable);
     void RemoveConsume(Consumable* consumable);
 
-    bool HasItem(std::string ItemName);
-    Evidence* FindEvidence(std::string evidence);
-    Consumable* FindConsumable(std::string consumable);
+    bool HasItem(int ItemId);
+    Evidence* FindEvidence(int ItemId);
+    Consumable* FindConsumable(int ItemId);
 
     const std::vector<Evidence*>& GetEvidence() const;
     const std::vector<Consumable*>& GetConsume() const;

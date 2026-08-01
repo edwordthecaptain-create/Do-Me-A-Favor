@@ -8,6 +8,8 @@ Player::Player(int init_energy, int init_stress) {
     stress = init_stress;
 }
 
+Player::~Player() {}
+
 void Player::ConsumeEnergy(int amount){
     if(energy >= 40 && energy < 60){
         amount = static_cast<int>(amount * 1.1f);

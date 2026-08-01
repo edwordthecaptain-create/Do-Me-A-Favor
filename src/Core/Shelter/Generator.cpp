@@ -5,6 +5,8 @@ Generator::Generator(int init_strength, int init_power) : Protection(init_streng
     power = init_power;
 }
 
+Generator::~Generator() {}
+
 void Generator::GainPower(int unit){
     power += unit;
 

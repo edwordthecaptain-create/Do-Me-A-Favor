@@ -43,7 +43,7 @@ public:
     
     bool Die();
     void Talk();
-    bool AcceptTask();
+    bool AcceptTask(int cooldownTurns);
     bool CompleteTask();
     bool LeaveShelter();
 

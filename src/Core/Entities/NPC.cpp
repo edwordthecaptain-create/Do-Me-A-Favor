@@ -1,5 +1,10 @@
 #include "NPC.h"
 
+NPC::NPC(std::string name, Ability skill, Role role, NPCState state, int cooldown)
+    :name(name), ability(skill), role(role), state(state), cooldownTurn(cooldown){}
+
+NPC::~NPC(){}
+
 void NPC::SetState(NPCState newState){
     state = newState;
 }
@@ -40,13 +45,15 @@ bool NPC::Die(){
 
 void NPC::Talk(){}
 
-bool NPC::AcceptTask(){
-    if(IsAvailable()){
-        state = NPCState::WORKING;
-        return true;
+bool NPC::AcceptTask(int cooldownTurns){
+    if(!IsAvailable()){
+        return false;
     }
 
-    return false;
+    state = NPCState::WORKING;
+    cooldownTurn = cooldownTurns;
+
+    return true;
 }
 
 bool NPC::CompleteTask(){

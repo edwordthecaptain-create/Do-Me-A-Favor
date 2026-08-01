@@ -3,6 +3,8 @@
 Evidence::Evidence(int id, std::string name, bool reliability, bool belief)
     : Items(id, name), Reliability(reliability), Belief(belief) {}
 
+Evidence::~Evidence() {}
+
 bool Evidence::GetReliability() const {
     return Reliability;
 }
