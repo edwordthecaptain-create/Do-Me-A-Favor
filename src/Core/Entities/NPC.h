@@ -1,13 +1,15 @@
 #pragma once
 #include <string>
 
-enum Role{
+class DialogueManager;
+
+enum class Role{
     ALLY,
     SCAMMER,
     RANDOM
 };
 
-enum NPCState{
+enum class NPCState{
     WAITING,
     WORKING,
     MISSING,
@@ -15,7 +17,7 @@ enum NPCState{
     LEFT
 };
 
-enum Ability{
+enum class Ability{
     NONE,
     ENGINEER,
     BUILDER,
@@ -42,7 +44,7 @@ public:
     bool IsAlive();
     
     bool Die();
-    void Talk();
+    void Talk(DialogueManager* dialogueManager, std::string context = "");
     bool AcceptTask(int cooldownTurns);
     bool CompleteTask();
     bool LeaveShelter();

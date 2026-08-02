@@ -1,11 +1,11 @@
 #pragma once
 
-#include "Generator.h"
-#include "Protection.h"
-#include "Population.h"
-#include "Inventory.h"
-#include "Sitemap.h"
-#include "Notebook.h"
+class Generator;
+class Protection;
+class Population;
+class Inventory;
+class Sitemap;
+class Notebook;
 
 class Shelter{
 private:

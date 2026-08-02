@@ -1,4 +1,7 @@
 #include "DialogueManager.h"
+#include "Entities/NPC.h"
+#include "DialogueSet.h"
+#include "Dialogue"
 
 DialogueManager::DialogueManager(){
     currentNPC = nullptr;

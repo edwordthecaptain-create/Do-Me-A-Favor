@@ -1,4 +1,5 @@
 #include "Population.h"
+#include "NPC.h"
 
 void Population::AddResident(NPC* npc){
     if(npc == nullptr) return;

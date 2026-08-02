@@ -6,7 +6,14 @@ void Sitemap::ChangeSite(int cameraId) {
     }
 }
 
-void Sitemap::InteractObject() {}
+void Sitemap::InteractObject() {
+    switch (currentSite){
+    case 0:
+        break;
+    default:
+        break;
+    }
+}
 
 int Sitemap::GetCurrentSite() const {
     return currentSite; 

@@ -1,4 +1,5 @@
 #include "NPC.h"
+#include "Dialogue/DialogueManager.h"
 
 NPC::NPC(std::string name, Ability skill, Role role, NPCState state, int cooldown)
     :name(name), ability(skill), role(role), state(state), cooldownTurn(cooldown){}
@@ -43,7 +44,19 @@ bool NPC::Die(){
     return false;
 }
 
-void NPC::Talk(){}
+void NPC::Talk(DialogueManager* dialogueManager, std::string context = ""){
+    if (dialogueManager == nullptr || state == NPCState::DEAD || state == NPCState::LEFT || state == NPCState::MISSING) {
+        return;
+    }
+
+    if (state == NPCState::WORKING) {
+        context = "Busy";
+    } else if (context == "") {
+        context = "Default";
+    }
+
+    dialogueManager->StartDialogue(this, context);
+}
 
 bool NPC::AcceptTask(int cooldownTurns){
     if(!IsAvailable()){

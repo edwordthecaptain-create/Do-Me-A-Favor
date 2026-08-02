@@ -1,7 +1,8 @@
 #pragma once 
-#include "Dialogue.h"
 #include <string>
 #include <vector>
+
+class Dialogue;
 
 class DialogueSet{
 private:

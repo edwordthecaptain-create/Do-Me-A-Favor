@@ -1,4 +1,5 @@
 #include "Notebook.h"
+#include "Items/Evidence.h"
 
 void Notebook::AddEvidence(Evidence* evidence) {
     if(evidence == nullptr) return;

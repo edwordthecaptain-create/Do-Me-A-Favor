@@ -1,7 +1,8 @@
 #pragma once
-#include "Evidence.h"
-#include "Consumable.h"
 #include <vector>
+
+class Evidence;
+class Consumable;
 
 class Inventory{
 private:

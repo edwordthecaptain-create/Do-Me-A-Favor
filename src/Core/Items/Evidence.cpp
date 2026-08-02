@@ -5,6 +5,8 @@ Evidence::Evidence(int id, std::string name, bool reliability, bool belief)
 
 Evidence::~Evidence() {}
 
+void Evidence::ApplyEffect() {}
+
 bool Evidence::GetReliability() const {
     return Reliability;
 }

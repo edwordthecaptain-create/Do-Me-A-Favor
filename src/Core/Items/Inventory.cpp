@@ -1,4 +1,6 @@
 #include "Inventory.h"
+#include "Evidence.h"
+#include "Consumable.h"
 
 void Inventory::AddEvidence(Evidence* evidence){
     if(evidence == nullptr) return;

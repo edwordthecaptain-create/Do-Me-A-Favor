@@ -1,6 +1,7 @@
 #pragma once
 #include "Protection.h"
-#include "Items/Consumable.h"
+
+class Consumable;
 
 class Generator : public Protection{
 private:
@@ -15,4 +16,5 @@ public:
 
     void Refuel(Consumable& consume);
     int GetPower() const;
+    int GetMaxPower() const;
 };

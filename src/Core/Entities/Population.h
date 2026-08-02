@@ -1,6 +1,7 @@
 #pragma once
-#include "NPC.h"
 #include <vector>
+
+class NPC;
 
 class Population{
 private:
@@ -13,4 +14,4 @@ public:
     void UpdatePopulation();
 
     int GetPopulationCount() const;
-};
+};  

@@ -1,8 +1,9 @@
 #pragma once
-#include "Entities/NPC.h"
-#include "DialogueSet.h"
-#include "Dialogue"
 #include <string>
+
+class Dialogue;
+class DialogueSet;
+class NPC;
 
 class DialogueManager{
 private:

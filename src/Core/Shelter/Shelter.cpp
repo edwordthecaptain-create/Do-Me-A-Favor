@@ -1,4 +1,10 @@
 #include "Shelter.h"
+#include "Generator.h"
+#include "Protection.h"
+#include "Population.h"
+#include "Inventory.h"
+#include "Sitemap.h"
+#include "Notebook.h"
 
 const Generator& Shelter::GetGenerator() const {
     return generator;

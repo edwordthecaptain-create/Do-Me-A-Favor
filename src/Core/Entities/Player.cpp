@@ -1,4 +1,5 @@
 #include "Player.h"
+#include "Items/Consumable.h"
 
 Player::Player(int init_energy, int init_stress) {
     max_energy = 100;
@@ -56,7 +57,15 @@ void Player::TakeANap(int energy_unit, int stress_unit){
     RecoverEnergy(energy_unit);
     ReduceStress(stress_unit);
 }
-void Player::ConsumeItem(){} //TODO
+
+void Player::ConsumeItem(Consumable* consumable){
+    if(consumable == nullptr) return;
+
+    if(consumable->GetType() == ConsumableType::PLAYER_STAT){
+        RecoverEnergy(consumable->GetEffectiveValue());
+        consumable->Consume();
+    }
+} //TODO
 
 int Player::GetEnergy() const {
     return energy;

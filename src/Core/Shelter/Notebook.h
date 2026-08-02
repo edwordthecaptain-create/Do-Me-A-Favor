@@ -1,6 +1,7 @@
 #pragma once
-#include "Items/Evidence.h"
 #include <vector>
+
+class Evidence;
 
 class Notebook{
 private:

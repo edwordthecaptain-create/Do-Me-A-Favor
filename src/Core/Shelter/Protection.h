@@ -1,5 +1,8 @@
 #pragma once
 
+class Consumable;
+class Tool;
+
 class Protection{
 private:
     int durability;
@@ -12,7 +15,8 @@ public:
     void DecreaseDurability(int unit);
 
     void TakeDamage(int amount);
-    void Repair(); // TODO
+    void Repair(Consumable& material, const Tool* tool = nullptr); // TODO
 
     int GetDurability() const;
+    int GetMaxDurability() const;
 };

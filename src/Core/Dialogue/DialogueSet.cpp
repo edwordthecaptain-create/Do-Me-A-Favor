@@ -1,4 +1,5 @@
 #include "DialogueSet.h"
+#include "Dialogue.h"
 
 DialogueSet::DialogueSet(std::string name){
     setName = name;

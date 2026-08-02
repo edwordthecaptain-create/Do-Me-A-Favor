@@ -1,5 +1,7 @@
 #pragma once
 
+class Consumable;
+
 class Player{
 private:
     int energy;
@@ -18,7 +20,7 @@ public:
     void ReduceStress(int amount);
 
     void TakeANap(int energy_unit, int stress_unit);
-    void ConsumeItem();
+    void ConsumeItem(Consumable* consumable);
 
     int GetEnergy() const;
     int GetStress() const;
