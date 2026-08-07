@@ -236,11 +236,26 @@ CMakeFiles/DoMeAFavorGame.dir/src/Core/Items/Items.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/DoMeAFavorGame.dir/src/Core/Items/Items.cpp.s"
 	C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\DoMeAFavor\src\Core\Items\Items.cpp -o CMakeFiles\DoMeAFavorGame.dir\src\Core\Items\Items.cpp.s
 
+CMakeFiles/DoMeAFavorGame.dir/src/Core/Items/Tool.cpp.obj: CMakeFiles/DoMeAFavorGame.dir/flags.make
+CMakeFiles/DoMeAFavorGame.dir/src/Core/Items/Tool.cpp.obj: CMakeFiles/DoMeAFavorGame.dir/includes_CXX.rsp
+CMakeFiles/DoMeAFavorGame.dir/src/Core/Items/Tool.cpp.obj: D:/DoMeAFavor/src/Core/Items/Tool.cpp
+CMakeFiles/DoMeAFavorGame.dir/src/Core/Items/Tool.cpp.obj: CMakeFiles/DoMeAFavorGame.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\DoMeAFavor\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/DoMeAFavorGame.dir/src/Core/Items/Tool.cpp.obj"
+	C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/DoMeAFavorGame.dir/src/Core/Items/Tool.cpp.obj -MF CMakeFiles\DoMeAFavorGame.dir\src\Core\Items\Tool.cpp.obj.d -o CMakeFiles\DoMeAFavorGame.dir\src\Core\Items\Tool.cpp.obj -c D:\DoMeAFavor\src\Core\Items\Tool.cpp
+
+CMakeFiles/DoMeAFavorGame.dir/src/Core/Items/Tool.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/DoMeAFavorGame.dir/src/Core/Items/Tool.cpp.i"
+	C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\DoMeAFavor\src\Core\Items\Tool.cpp > CMakeFiles\DoMeAFavorGame.dir\src\Core\Items\Tool.cpp.i
+
+CMakeFiles/DoMeAFavorGame.dir/src/Core/Items/Tool.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/DoMeAFavorGame.dir/src/Core/Items/Tool.cpp.s"
+	C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\DoMeAFavor\src\Core\Items\Tool.cpp -o CMakeFiles\DoMeAFavorGame.dir\src\Core\Items\Tool.cpp.s
+
 CMakeFiles/DoMeAFavorGame.dir/src/Core/Shelter/Generator.cpp.obj: CMakeFiles/DoMeAFavorGame.dir/flags.make
 CMakeFiles/DoMeAFavorGame.dir/src/Core/Shelter/Generator.cpp.obj: CMakeFiles/DoMeAFavorGame.dir/includes_CXX.rsp
 CMakeFiles/DoMeAFavorGame.dir/src/Core/Shelter/Generator.cpp.obj: D:/DoMeAFavor/src/Core/Shelter/Generator.cpp
 CMakeFiles/DoMeAFavorGame.dir/src/Core/Shelter/Generator.cpp.obj: CMakeFiles/DoMeAFavorGame.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\DoMeAFavor\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/DoMeAFavorGame.dir/src/Core/Shelter/Generator.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\DoMeAFavor\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/DoMeAFavorGame.dir/src/Core/Shelter/Generator.cpp.obj"
 	C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/DoMeAFavorGame.dir/src/Core/Shelter/Generator.cpp.obj -MF CMakeFiles\DoMeAFavorGame.dir\src\Core\Shelter\Generator.cpp.obj.d -o CMakeFiles\DoMeAFavorGame.dir\src\Core\Shelter\Generator.cpp.obj -c D:\DoMeAFavor\src\Core\Shelter\Generator.cpp
 
 CMakeFiles/DoMeAFavorGame.dir/src/Core/Shelter/Generator.cpp.i: cmake_force
@@ -255,7 +270,7 @@ CMakeFiles/DoMeAFavorGame.dir/src/Core/Shelter/Notebook.cpp.obj: CMakeFiles/DoMe
 CMakeFiles/DoMeAFavorGame.dir/src/Core/Shelter/Notebook.cpp.obj: CMakeFiles/DoMeAFavorGame.dir/includes_CXX.rsp
 CMakeFiles/DoMeAFavorGame.dir/src/Core/Shelter/Notebook.cpp.obj: D:/DoMeAFavor/src/Core/Shelter/Notebook.cpp
 CMakeFiles/DoMeAFavorGame.dir/src/Core/Shelter/Notebook.cpp.obj: CMakeFiles/DoMeAFavorGame.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\DoMeAFavor\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/DoMeAFavorGame.dir/src/Core/Shelter/Notebook.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\DoMeAFavor\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/DoMeAFavorGame.dir/src/Core/Shelter/Notebook.cpp.obj"
 	C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/DoMeAFavorGame.dir/src/Core/Shelter/Notebook.cpp.obj -MF CMakeFiles\DoMeAFavorGame.dir\src\Core\Shelter\Notebook.cpp.obj.d -o CMakeFiles\DoMeAFavorGame.dir\src\Core\Shelter\Notebook.cpp.obj -c D:\DoMeAFavor\src\Core\Shelter\Notebook.cpp
 
 CMakeFiles/DoMeAFavorGame.dir/src/Core/Shelter/Notebook.cpp.i: cmake_force
@@ -270,7 +285,7 @@ CMakeFiles/DoMeAFavorGame.dir/src/Core/Shelter/Protection.cpp.obj: CMakeFiles/Do
 CMakeFiles/DoMeAFavorGame.dir/src/Core/Shelter/Protection.cpp.obj: CMakeFiles/DoMeAFavorGame.dir/includes_CXX.rsp
 CMakeFiles/DoMeAFavorGame.dir/src/Core/Shelter/Protection.cpp.obj: D:/DoMeAFavor/src/Core/Shelter/Protection.cpp
 CMakeFiles/DoMeAFavorGame.dir/src/Core/Shelter/Protection.cpp.obj: CMakeFiles/DoMeAFavorGame.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\DoMeAFavor\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/DoMeAFavorGame.dir/src/Core/Shelter/Protection.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\DoMeAFavor\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/DoMeAFavorGame.dir/src/Core/Shelter/Protection.cpp.obj"
 	C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/DoMeAFavorGame.dir/src/Core/Shelter/Protection.cpp.obj -MF CMakeFiles\DoMeAFavorGame.dir\src\Core\Shelter\Protection.cpp.obj.d -o CMakeFiles\DoMeAFavorGame.dir\src\Core\Shelter\Protection.cpp.obj -c D:\DoMeAFavor\src\Core\Shelter\Protection.cpp
 
 CMakeFiles/DoMeAFavorGame.dir/src/Core/Shelter/Protection.cpp.i: cmake_force
@@ -285,7 +300,7 @@ CMakeFiles/DoMeAFavorGame.dir/src/Core/Shelter/Shelter.cpp.obj: CMakeFiles/DoMeA
 CMakeFiles/DoMeAFavorGame.dir/src/Core/Shelter/Shelter.cpp.obj: CMakeFiles/DoMeAFavorGame.dir/includes_CXX.rsp
 CMakeFiles/DoMeAFavorGame.dir/src/Core/Shelter/Shelter.cpp.obj: D:/DoMeAFavor/src/Core/Shelter/Shelter.cpp
 CMakeFiles/DoMeAFavorGame.dir/src/Core/Shelter/Shelter.cpp.obj: CMakeFiles/DoMeAFavorGame.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\DoMeAFavor\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/DoMeAFavorGame.dir/src/Core/Shelter/Shelter.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\DoMeAFavor\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/DoMeAFavorGame.dir/src/Core/Shelter/Shelter.cpp.obj"
 	C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/DoMeAFavorGame.dir/src/Core/Shelter/Shelter.cpp.obj -MF CMakeFiles\DoMeAFavorGame.dir\src\Core\Shelter\Shelter.cpp.obj.d -o CMakeFiles\DoMeAFavorGame.dir\src\Core\Shelter\Shelter.cpp.obj -c D:\DoMeAFavor\src\Core\Shelter\Shelter.cpp
 
 CMakeFiles/DoMeAFavorGame.dir/src/Core/Shelter/Shelter.cpp.i: cmake_force
@@ -300,7 +315,7 @@ CMakeFiles/DoMeAFavorGame.dir/src/Core/Shelter/Sitemap.cpp.obj: CMakeFiles/DoMeA
 CMakeFiles/DoMeAFavorGame.dir/src/Core/Shelter/Sitemap.cpp.obj: CMakeFiles/DoMeAFavorGame.dir/includes_CXX.rsp
 CMakeFiles/DoMeAFavorGame.dir/src/Core/Shelter/Sitemap.cpp.obj: D:/DoMeAFavor/src/Core/Shelter/Sitemap.cpp
 CMakeFiles/DoMeAFavorGame.dir/src/Core/Shelter/Sitemap.cpp.obj: CMakeFiles/DoMeAFavorGame.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\DoMeAFavor\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/DoMeAFavorGame.dir/src/Core/Shelter/Sitemap.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\DoMeAFavor\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/DoMeAFavorGame.dir/src/Core/Shelter/Sitemap.cpp.obj"
 	C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/DoMeAFavorGame.dir/src/Core/Shelter/Sitemap.cpp.obj -MF CMakeFiles\DoMeAFavorGame.dir\src\Core\Shelter\Sitemap.cpp.obj.d -o CMakeFiles\DoMeAFavorGame.dir\src\Core\Shelter\Sitemap.cpp.obj -c D:\DoMeAFavor\src\Core\Shelter\Sitemap.cpp
 
 CMakeFiles/DoMeAFavorGame.dir/src/Core/Shelter/Sitemap.cpp.i: cmake_force
@@ -311,11 +326,26 @@ CMakeFiles/DoMeAFavorGame.dir/src/Core/Shelter/Sitemap.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/DoMeAFavorGame.dir/src/Core/Shelter/Sitemap.cpp.s"
 	C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\DoMeAFavor\src\Core\Shelter\Sitemap.cpp -o CMakeFiles\DoMeAFavorGame.dir\src\Core\Shelter\Sitemap.cpp.s
 
+CMakeFiles/DoMeAFavorGame.dir/src/Presentation/AssetManager.cpp.obj: CMakeFiles/DoMeAFavorGame.dir/flags.make
+CMakeFiles/DoMeAFavorGame.dir/src/Presentation/AssetManager.cpp.obj: CMakeFiles/DoMeAFavorGame.dir/includes_CXX.rsp
+CMakeFiles/DoMeAFavorGame.dir/src/Presentation/AssetManager.cpp.obj: D:/DoMeAFavor/src/Presentation/AssetManager.cpp
+CMakeFiles/DoMeAFavorGame.dir/src/Presentation/AssetManager.cpp.obj: CMakeFiles/DoMeAFavorGame.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\DoMeAFavor\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/DoMeAFavorGame.dir/src/Presentation/AssetManager.cpp.obj"
+	C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/DoMeAFavorGame.dir/src/Presentation/AssetManager.cpp.obj -MF CMakeFiles\DoMeAFavorGame.dir\src\Presentation\AssetManager.cpp.obj.d -o CMakeFiles\DoMeAFavorGame.dir\src\Presentation\AssetManager.cpp.obj -c D:\DoMeAFavor\src\Presentation\AssetManager.cpp
+
+CMakeFiles/DoMeAFavorGame.dir/src/Presentation/AssetManager.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/DoMeAFavorGame.dir/src/Presentation/AssetManager.cpp.i"
+	C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\DoMeAFavor\src\Presentation\AssetManager.cpp > CMakeFiles\DoMeAFavorGame.dir\src\Presentation\AssetManager.cpp.i
+
+CMakeFiles/DoMeAFavorGame.dir/src/Presentation/AssetManager.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/DoMeAFavorGame.dir/src/Presentation/AssetManager.cpp.s"
+	C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\DoMeAFavor\src\Presentation\AssetManager.cpp -o CMakeFiles\DoMeAFavorGame.dir\src\Presentation\AssetManager.cpp.s
+
 CMakeFiles/DoMeAFavorGame.dir/src/Presentation/Audio/AudioManager.cpp.obj: CMakeFiles/DoMeAFavorGame.dir/flags.make
 CMakeFiles/DoMeAFavorGame.dir/src/Presentation/Audio/AudioManager.cpp.obj: CMakeFiles/DoMeAFavorGame.dir/includes_CXX.rsp
 CMakeFiles/DoMeAFavorGame.dir/src/Presentation/Audio/AudioManager.cpp.obj: D:/DoMeAFavor/src/Presentation/Audio/AudioManager.cpp
 CMakeFiles/DoMeAFavorGame.dir/src/Presentation/Audio/AudioManager.cpp.obj: CMakeFiles/DoMeAFavorGame.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\DoMeAFavor\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/DoMeAFavorGame.dir/src/Presentation/Audio/AudioManager.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\DoMeAFavor\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/DoMeAFavorGame.dir/src/Presentation/Audio/AudioManager.cpp.obj"
 	C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/DoMeAFavorGame.dir/src/Presentation/Audio/AudioManager.cpp.obj -MF CMakeFiles\DoMeAFavorGame.dir\src\Presentation\Audio\AudioManager.cpp.obj.d -o CMakeFiles\DoMeAFavorGame.dir\src\Presentation\Audio\AudioManager.cpp.obj -c D:\DoMeAFavor\src\Presentation\Audio\AudioManager.cpp
 
 CMakeFiles/DoMeAFavorGame.dir/src/Presentation/Audio/AudioManager.cpp.i: cmake_force
@@ -330,7 +360,7 @@ CMakeFiles/DoMeAFavorGame.dir/src/Presentation/Input/InputManager.cpp.obj: CMake
 CMakeFiles/DoMeAFavorGame.dir/src/Presentation/Input/InputManager.cpp.obj: CMakeFiles/DoMeAFavorGame.dir/includes_CXX.rsp
 CMakeFiles/DoMeAFavorGame.dir/src/Presentation/Input/InputManager.cpp.obj: D:/DoMeAFavor/src/Presentation/Input/InputManager.cpp
 CMakeFiles/DoMeAFavorGame.dir/src/Presentation/Input/InputManager.cpp.obj: CMakeFiles/DoMeAFavorGame.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\DoMeAFavor\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/DoMeAFavorGame.dir/src/Presentation/Input/InputManager.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\DoMeAFavor\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object CMakeFiles/DoMeAFavorGame.dir/src/Presentation/Input/InputManager.cpp.obj"
 	C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/DoMeAFavorGame.dir/src/Presentation/Input/InputManager.cpp.obj -MF CMakeFiles\DoMeAFavorGame.dir\src\Presentation\Input\InputManager.cpp.obj.d -o CMakeFiles\DoMeAFavorGame.dir\src\Presentation\Input\InputManager.cpp.obj -c D:\DoMeAFavor\src\Presentation\Input\InputManager.cpp
 
 CMakeFiles/DoMeAFavorGame.dir/src/Presentation/Input/InputManager.cpp.i: cmake_force
@@ -345,7 +375,7 @@ CMakeFiles/DoMeAFavorGame.dir/src/Presentation/Render/DisplayManager.cpp.obj: CM
 CMakeFiles/DoMeAFavorGame.dir/src/Presentation/Render/DisplayManager.cpp.obj: CMakeFiles/DoMeAFavorGame.dir/includes_CXX.rsp
 CMakeFiles/DoMeAFavorGame.dir/src/Presentation/Render/DisplayManager.cpp.obj: D:/DoMeAFavor/src/Presentation/Render/DisplayManager.cpp
 CMakeFiles/DoMeAFavorGame.dir/src/Presentation/Render/DisplayManager.cpp.obj: CMakeFiles/DoMeAFavorGame.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\DoMeAFavor\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/DoMeAFavorGame.dir/src/Presentation/Render/DisplayManager.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\DoMeAFavor\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object CMakeFiles/DoMeAFavorGame.dir/src/Presentation/Render/DisplayManager.cpp.obj"
 	C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/DoMeAFavorGame.dir/src/Presentation/Render/DisplayManager.cpp.obj -MF CMakeFiles\DoMeAFavorGame.dir\src\Presentation\Render\DisplayManager.cpp.obj.d -o CMakeFiles\DoMeAFavorGame.dir\src\Presentation\Render\DisplayManager.cpp.obj -c D:\DoMeAFavor\src\Presentation\Render\DisplayManager.cpp
 
 CMakeFiles/DoMeAFavorGame.dir/src/Presentation/Render/DisplayManager.cpp.i: cmake_force
@@ -360,7 +390,7 @@ CMakeFiles/DoMeAFavorGame.dir/src/Presentation/Render/Renderer.cpp.obj: CMakeFil
 CMakeFiles/DoMeAFavorGame.dir/src/Presentation/Render/Renderer.cpp.obj: CMakeFiles/DoMeAFavorGame.dir/includes_CXX.rsp
 CMakeFiles/DoMeAFavorGame.dir/src/Presentation/Render/Renderer.cpp.obj: D:/DoMeAFavor/src/Presentation/Render/Renderer.cpp
 CMakeFiles/DoMeAFavorGame.dir/src/Presentation/Render/Renderer.cpp.obj: CMakeFiles/DoMeAFavorGame.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\DoMeAFavor\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object CMakeFiles/DoMeAFavorGame.dir/src/Presentation/Render/Renderer.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\DoMeAFavor\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object CMakeFiles/DoMeAFavorGame.dir/src/Presentation/Render/Renderer.cpp.obj"
 	C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/DoMeAFavorGame.dir/src/Presentation/Render/Renderer.cpp.obj -MF CMakeFiles\DoMeAFavorGame.dir\src\Presentation\Render\Renderer.cpp.obj.d -o CMakeFiles\DoMeAFavorGame.dir\src\Presentation\Render\Renderer.cpp.obj -c D:\DoMeAFavor\src\Presentation\Render\Renderer.cpp
 
 CMakeFiles/DoMeAFavorGame.dir/src/Presentation/Render/Renderer.cpp.i: cmake_force
@@ -375,7 +405,7 @@ CMakeFiles/DoMeAFavorGame.dir/src/Presentation/Render/SceneView.cpp.obj: CMakeFi
 CMakeFiles/DoMeAFavorGame.dir/src/Presentation/Render/SceneView.cpp.obj: CMakeFiles/DoMeAFavorGame.dir/includes_CXX.rsp
 CMakeFiles/DoMeAFavorGame.dir/src/Presentation/Render/SceneView.cpp.obj: D:/DoMeAFavor/src/Presentation/Render/SceneView.cpp
 CMakeFiles/DoMeAFavorGame.dir/src/Presentation/Render/SceneView.cpp.obj: CMakeFiles/DoMeAFavorGame.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\DoMeAFavor\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object CMakeFiles/DoMeAFavorGame.dir/src/Presentation/Render/SceneView.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\DoMeAFavor\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object CMakeFiles/DoMeAFavorGame.dir/src/Presentation/Render/SceneView.cpp.obj"
 	C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/DoMeAFavorGame.dir/src/Presentation/Render/SceneView.cpp.obj -MF CMakeFiles\DoMeAFavorGame.dir\src\Presentation\Render\SceneView.cpp.obj.d -o CMakeFiles\DoMeAFavorGame.dir\src\Presentation\Render\SceneView.cpp.obj -c D:\DoMeAFavor\src\Presentation\Render\SceneView.cpp
 
 CMakeFiles/DoMeAFavorGame.dir/src/Presentation/Render/SceneView.cpp.i: cmake_force
@@ -390,7 +420,7 @@ CMakeFiles/DoMeAFavorGame.dir/src/Presentation/UI/HUDManager.cpp.obj: CMakeFiles
 CMakeFiles/DoMeAFavorGame.dir/src/Presentation/UI/HUDManager.cpp.obj: CMakeFiles/DoMeAFavorGame.dir/includes_CXX.rsp
 CMakeFiles/DoMeAFavorGame.dir/src/Presentation/UI/HUDManager.cpp.obj: D:/DoMeAFavor/src/Presentation/UI/HUDManager.cpp
 CMakeFiles/DoMeAFavorGame.dir/src/Presentation/UI/HUDManager.cpp.obj: CMakeFiles/DoMeAFavorGame.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\DoMeAFavor\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object CMakeFiles/DoMeAFavorGame.dir/src/Presentation/UI/HUDManager.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\DoMeAFavor\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object CMakeFiles/DoMeAFavorGame.dir/src/Presentation/UI/HUDManager.cpp.obj"
 	C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/DoMeAFavorGame.dir/src/Presentation/UI/HUDManager.cpp.obj -MF CMakeFiles\DoMeAFavorGame.dir\src\Presentation\UI\HUDManager.cpp.obj.d -o CMakeFiles\DoMeAFavorGame.dir\src\Presentation\UI\HUDManager.cpp.obj -c D:\DoMeAFavor\src\Presentation\UI\HUDManager.cpp
 
 CMakeFiles/DoMeAFavorGame.dir/src/Presentation/UI/HUDManager.cpp.i: cmake_force
@@ -405,7 +435,7 @@ CMakeFiles/DoMeAFavorGame.dir/src/Presentation/UI/HUDObject.cpp.obj: CMakeFiles/
 CMakeFiles/DoMeAFavorGame.dir/src/Presentation/UI/HUDObject.cpp.obj: CMakeFiles/DoMeAFavorGame.dir/includes_CXX.rsp
 CMakeFiles/DoMeAFavorGame.dir/src/Presentation/UI/HUDObject.cpp.obj: D:/DoMeAFavor/src/Presentation/UI/HUDObject.cpp
 CMakeFiles/DoMeAFavorGame.dir/src/Presentation/UI/HUDObject.cpp.obj: CMakeFiles/DoMeAFavorGame.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\DoMeAFavor\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object CMakeFiles/DoMeAFavorGame.dir/src/Presentation/UI/HUDObject.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\DoMeAFavor\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building CXX object CMakeFiles/DoMeAFavorGame.dir/src/Presentation/UI/HUDObject.cpp.obj"
 	C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/DoMeAFavorGame.dir/src/Presentation/UI/HUDObject.cpp.obj -MF CMakeFiles\DoMeAFavorGame.dir\src\Presentation\UI\HUDObject.cpp.obj.d -o CMakeFiles\DoMeAFavorGame.dir\src\Presentation\UI\HUDObject.cpp.obj -c D:\DoMeAFavor\src\Presentation\UI\HUDObject.cpp
 
 CMakeFiles/DoMeAFavorGame.dir/src/Presentation/UI/HUDObject.cpp.i: cmake_force
@@ -420,7 +450,7 @@ CMakeFiles/DoMeAFavorGame.dir/src/main.cpp.obj: CMakeFiles/DoMeAFavorGame.dir/fl
 CMakeFiles/DoMeAFavorGame.dir/src/main.cpp.obj: CMakeFiles/DoMeAFavorGame.dir/includes_CXX.rsp
 CMakeFiles/DoMeAFavorGame.dir/src/main.cpp.obj: D:/DoMeAFavor/src/main.cpp
 CMakeFiles/DoMeAFavorGame.dir/src/main.cpp.obj: CMakeFiles/DoMeAFavorGame.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\DoMeAFavor\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object CMakeFiles/DoMeAFavorGame.dir/src/main.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\DoMeAFavor\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building CXX object CMakeFiles/DoMeAFavorGame.dir/src/main.cpp.obj"
 	C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/DoMeAFavorGame.dir/src/main.cpp.obj -MF CMakeFiles\DoMeAFavorGame.dir\src\main.cpp.obj.d -o CMakeFiles\DoMeAFavorGame.dir\src\main.cpp.obj -c D:\DoMeAFavor\src\main.cpp
 
 CMakeFiles/DoMeAFavorGame.dir/src/main.cpp.i: cmake_force
@@ -444,11 +474,13 @@ DoMeAFavorGame_OBJECTS = \
 "CMakeFiles/DoMeAFavorGame.dir/src/Core/Items/Evidence.cpp.obj" \
 "CMakeFiles/DoMeAFavorGame.dir/src/Core/Items/Inventory.cpp.obj" \
 "CMakeFiles/DoMeAFavorGame.dir/src/Core/Items/Items.cpp.obj" \
+"CMakeFiles/DoMeAFavorGame.dir/src/Core/Items/Tool.cpp.obj" \
 "CMakeFiles/DoMeAFavorGame.dir/src/Core/Shelter/Generator.cpp.obj" \
 "CMakeFiles/DoMeAFavorGame.dir/src/Core/Shelter/Notebook.cpp.obj" \
 "CMakeFiles/DoMeAFavorGame.dir/src/Core/Shelter/Protection.cpp.obj" \
 "CMakeFiles/DoMeAFavorGame.dir/src/Core/Shelter/Shelter.cpp.obj" \
 "CMakeFiles/DoMeAFavorGame.dir/src/Core/Shelter/Sitemap.cpp.obj" \
+"CMakeFiles/DoMeAFavorGame.dir/src/Presentation/AssetManager.cpp.obj" \
 "CMakeFiles/DoMeAFavorGame.dir/src/Presentation/Audio/AudioManager.cpp.obj" \
 "CMakeFiles/DoMeAFavorGame.dir/src/Presentation/Input/InputManager.cpp.obj" \
 "CMakeFiles/DoMeAFavorGame.dir/src/Presentation/Render/DisplayManager.cpp.obj" \
@@ -472,11 +504,13 @@ DoMeAFavorGame.exe: CMakeFiles/DoMeAFavorGame.dir/src/Core/Items/Consumable.cpp.
 DoMeAFavorGame.exe: CMakeFiles/DoMeAFavorGame.dir/src/Core/Items/Evidence.cpp.obj
 DoMeAFavorGame.exe: CMakeFiles/DoMeAFavorGame.dir/src/Core/Items/Inventory.cpp.obj
 DoMeAFavorGame.exe: CMakeFiles/DoMeAFavorGame.dir/src/Core/Items/Items.cpp.obj
+DoMeAFavorGame.exe: CMakeFiles/DoMeAFavorGame.dir/src/Core/Items/Tool.cpp.obj
 DoMeAFavorGame.exe: CMakeFiles/DoMeAFavorGame.dir/src/Core/Shelter/Generator.cpp.obj
 DoMeAFavorGame.exe: CMakeFiles/DoMeAFavorGame.dir/src/Core/Shelter/Notebook.cpp.obj
 DoMeAFavorGame.exe: CMakeFiles/DoMeAFavorGame.dir/src/Core/Shelter/Protection.cpp.obj
 DoMeAFavorGame.exe: CMakeFiles/DoMeAFavorGame.dir/src/Core/Shelter/Shelter.cpp.obj
 DoMeAFavorGame.exe: CMakeFiles/DoMeAFavorGame.dir/src/Core/Shelter/Sitemap.cpp.obj
+DoMeAFavorGame.exe: CMakeFiles/DoMeAFavorGame.dir/src/Presentation/AssetManager.cpp.obj
 DoMeAFavorGame.exe: CMakeFiles/DoMeAFavorGame.dir/src/Presentation/Audio/AudioManager.cpp.obj
 DoMeAFavorGame.exe: CMakeFiles/DoMeAFavorGame.dir/src/Presentation/Input/InputManager.cpp.obj
 DoMeAFavorGame.exe: CMakeFiles/DoMeAFavorGame.dir/src/Presentation/Render/DisplayManager.cpp.obj
@@ -491,7 +525,7 @@ DoMeAFavorGame.exe: _deps/raylib-build/raylib/external/glfw/src/libglfw3.a
 DoMeAFavorGame.exe: CMakeFiles/DoMeAFavorGame.dir/linkLibs.rsp
 DoMeAFavorGame.exe: CMakeFiles/DoMeAFavorGame.dir/objects1.rsp
 DoMeAFavorGame.exe: CMakeFiles/DoMeAFavorGame.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=D:\DoMeAFavor\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Linking CXX executable DoMeAFavorGame.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=D:\DoMeAFavor\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Linking CXX executable DoMeAFavorGame.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\DoMeAFavorGame.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

@@ -509,6 +509,30 @@ src/Core/Items/Items.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\DoMeAFavorGame.dir\build.make CMakeFiles/DoMeAFavorGame.dir/src/Core/Items/Items.cpp.s
 .PHONY : src/Core/Items/Items.cpp.s
 
+src/Core/Items/Tool.obj: src/Core/Items/Tool.cpp.obj
+.PHONY : src/Core/Items/Tool.obj
+
+# target to build an object file
+src/Core/Items/Tool.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\DoMeAFavorGame.dir\build.make CMakeFiles/DoMeAFavorGame.dir/src/Core/Items/Tool.cpp.obj
+.PHONY : src/Core/Items/Tool.cpp.obj
+
+src/Core/Items/Tool.i: src/Core/Items/Tool.cpp.i
+.PHONY : src/Core/Items/Tool.i
+
+# target to preprocess a source file
+src/Core/Items/Tool.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\DoMeAFavorGame.dir\build.make CMakeFiles/DoMeAFavorGame.dir/src/Core/Items/Tool.cpp.i
+.PHONY : src/Core/Items/Tool.cpp.i
+
+src/Core/Items/Tool.s: src/Core/Items/Tool.cpp.s
+.PHONY : src/Core/Items/Tool.s
+
+# target to generate assembly for a file
+src/Core/Items/Tool.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\DoMeAFavorGame.dir\build.make CMakeFiles/DoMeAFavorGame.dir/src/Core/Items/Tool.cpp.s
+.PHONY : src/Core/Items/Tool.cpp.s
+
 src/Core/Shelter/Generator.obj: src/Core/Shelter/Generator.cpp.obj
 .PHONY : src/Core/Shelter/Generator.obj
 
@@ -628,6 +652,30 @@ src/Core/Shelter/Sitemap.s: src/Core/Shelter/Sitemap.cpp.s
 src/Core/Shelter/Sitemap.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\DoMeAFavorGame.dir\build.make CMakeFiles/DoMeAFavorGame.dir/src/Core/Shelter/Sitemap.cpp.s
 .PHONY : src/Core/Shelter/Sitemap.cpp.s
+
+src/Presentation/AssetManager.obj: src/Presentation/AssetManager.cpp.obj
+.PHONY : src/Presentation/AssetManager.obj
+
+# target to build an object file
+src/Presentation/AssetManager.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\DoMeAFavorGame.dir\build.make CMakeFiles/DoMeAFavorGame.dir/src/Presentation/AssetManager.cpp.obj
+.PHONY : src/Presentation/AssetManager.cpp.obj
+
+src/Presentation/AssetManager.i: src/Presentation/AssetManager.cpp.i
+.PHONY : src/Presentation/AssetManager.i
+
+# target to preprocess a source file
+src/Presentation/AssetManager.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\DoMeAFavorGame.dir\build.make CMakeFiles/DoMeAFavorGame.dir/src/Presentation/AssetManager.cpp.i
+.PHONY : src/Presentation/AssetManager.cpp.i
+
+src/Presentation/AssetManager.s: src/Presentation/AssetManager.cpp.s
+.PHONY : src/Presentation/AssetManager.s
+
+# target to generate assembly for a file
+src/Presentation/AssetManager.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\DoMeAFavorGame.dir\build.make CMakeFiles/DoMeAFavorGame.dir/src/Presentation/AssetManager.cpp.s
+.PHONY : src/Presentation/AssetManager.cpp.s
 
 src/Presentation/Audio/AudioManager.obj: src/Presentation/Audio/AudioManager.cpp.obj
 .PHONY : src/Presentation/Audio/AudioManager.obj
@@ -873,6 +921,9 @@ help:
 	@echo ... src/Core/Items/Items.obj
 	@echo ... src/Core/Items/Items.i
 	@echo ... src/Core/Items/Items.s
+	@echo ... src/Core/Items/Tool.obj
+	@echo ... src/Core/Items/Tool.i
+	@echo ... src/Core/Items/Tool.s
 	@echo ... src/Core/Shelter/Generator.obj
 	@echo ... src/Core/Shelter/Generator.i
 	@echo ... src/Core/Shelter/Generator.s
@@ -888,6 +939,9 @@ help:
 	@echo ... src/Core/Shelter/Sitemap.obj
 	@echo ... src/Core/Shelter/Sitemap.i
 	@echo ... src/Core/Shelter/Sitemap.s
+	@echo ... src/Presentation/AssetManager.obj
+	@echo ... src/Presentation/AssetManager.i
+	@echo ... src/Presentation/AssetManager.s
 	@echo ... src/Presentation/Audio/AudioManager.obj
 	@echo ... src/Presentation/Audio/AudioManager.i
 	@echo ... src/Presentation/Audio/AudioManager.s
